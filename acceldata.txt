@@ -1,10 +1,2 @@
-key1-;;;-test1
-key1-;;;----%%d%%---
-key2-;;;-test2
-key3-;;;-test3
-key2-;;;----%%d%%---
-key1-;;;-test3
-key1-;;;-test1
-key4-;;;-test4
-key5-;;;-test5
-key4-;;;-test44
+key5-;;;-{    "xy":"zz",    "yz":"abc",    "somekey":{        "uu":33    }}
+key4-;;;-{    "xy":"zz",    "yz":"abc"}

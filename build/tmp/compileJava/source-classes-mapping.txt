@@ -14,6 +14,8 @@ com/key/value/store/config/CacheConfig.java
  com.key.value.store.config.CacheConfig
 com/key/value/store/storage/Cache.java
  com.key.value.store.storage.Cache
+com/key/value/store/util/StringUtils.java
+ com.key.value.store.util.StringUtils
 com/key/value/store/storage/Storage.java
  com.key.value.store.storage.Storage
 com/key/value/store/storage/KVCache.java

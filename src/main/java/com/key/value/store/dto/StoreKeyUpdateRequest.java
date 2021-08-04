@@ -4,5 +4,5 @@ import lombok.Data;
 
 @Data
 public class StoreKeyUpdateRequest {
-    private String value;
+    private Object value;
 }

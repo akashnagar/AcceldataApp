@@ -19,8 +19,8 @@ public class StoreController {
     }
 
     @PostMapping("/upsert/{key}")
-    public ResponseEntity upsert(@PathVariable("key") String  key, @RequestBody StoreKeyUpdateRequest request){
-        storeService.upsert(key, request.getValue());
+    public ResponseEntity upsert(@PathVariable("key") String  key, @RequestBody String jsonValue){
+        storeService.upsert(key, jsonValue);
         return  ResponseEntity.ok(Constants.SUCCESS_MESSAGE);
     }
 
